@@ -1,0 +1,312 @@
+/*导航栏*/
+.menu-nav>.h2{
+	font-size: 26px;
+	line-height: 36px;
+    margin-bottom: 20px;
+}
+.menu-nav{
+	padding-right: 24px;
+}
+/*星享俱乐部*/
+.index-club{
+	background: url(../img/de635a06de12caa0a2316ad61ec97ede_bg-msr-unlogged.png) no-repeat;
+	background-size: cover;
+	border-bottom: 4px solid #c2a661;
+	box-sizing: border-box;
+}
+.indexclub-div{
+	width: 85%;
+}
+.indexclub-top{
+	width: 57%;
+}
+.indexclubh3{
+	margin-bottom: 24px;
+	font-size: 32px;
+}
+.index-club .button {
+	font-size: 16px;
+}
+/*登录*/
+.account-login{
+    background-image: linear-gradient(-180deg, #FCFCFC 0%, #FFF 100%);
+}
+.account-login,.join{
+	width: 100%;
+	padding: 24px 0px;
+}
+.account-login-body{
+	max-width: 480px;
+	padding: 0px 24px;
+	margin: 0px auto;
+}
+.login-input{
+	padding-top: 25px;
+	position: relative;
+}
+.login-input>input{
+    background: none;
+    border: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+    width: 100%;
+    font-size: 16px;
+    outline: none;
+    height: 34px;
+}
+.login-input>input:hover{
+	border-color: #00A862;
+}
+.login-input>label{
+	font-size: 16px;
+	color: rgba(0, 0, 0, 0.45);
+	font-weight: 400;
+	position: absolute;
+	top: 26px;
+	cursor: text;
+	transition: all 0.5s ease;
+}
+.login-div{
+	cursor: pointer;
+	padding-top: 18px;
+	padding-bottom: 20px;
+}
+.login-input>span{
+	position: absolute;
+	height: 24px;
+	width: 24px;
+	top: 30px;
+	right: 8px;
+	cursor: pointer;
+	background: url(../img/icon-hide-password.svg) no-repeat center center;
+}
+.login-input .icon-pass{
+	background: url(../img/icon-show-password.svg) no-repeat center center;
+}
+
+.account-span{
+	float: left;
+}
+.account-span>.bg1{
+	background: #FFFFFF;
+	width: 30px;
+	height: 30px;
+	border-radius: 8px;
+	border: 1px solid #00A862;
+	float: left;
+	text-align: center;
+	line-height: 26px;
+}
+.account-span>.bg{
+	background: #00A862;
+}
+.account-span>span:nth-of-type(2){
+	color: rgba(0,0,0,.67);
+	font-weight: 400;
+	font-size: 14px;
+	float: right;
+	padding-left: 10px;
+	padding-top: 5px;
+	
+}
+.account-p{
+	float: right;
+	color: #00A862;
+	font-size: 15px;
+}
+
+.code-div{
+	width: 298px;
+	height: 170px;
+	margin: 0px auto 18px;
+	
+	
+}
+.account-btn{
+	width: 100%;
+	padding-top: 24px;
+	text-align: right;
+}
+.account-btn>button{
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.38);
+    margin-bottom: 4px;
+    font-weight: 700;
+    padding: 12px 24px;
+    background: #f7f7f7;
+    border:1px solid #f7f7f7;
+    color: rgba(0, 0, 0, 0.38);
+    cursor: not-allowed;
+    border-radius: 48px;
+    font-size: 16px;
+}
+/*验证码*/
+.code-div>p{
+	font-size: 13px;
+	padding-top: 12px;
+	font-weight: 500;
+}
+#mpanel2{
+	max-width: 280px;
+	padding: 0px 9px;
+	position: relative;
+}
+.varify-input-code {
+    display: inline-block;
+ 	border: 1px solid #e5e5e5;
+	outline: none;
+    height: 51px;
+    width: 138px;
+    box-sizing: border-box;
+    padding-left: 8px;
+}
+.verify-code-area{
+	width: 276px !important;
+	margin-bottom: 10px;
+}
+.verify-code-area::after{
+	content: '';
+	display: block;
+	clear: both;
+}
+.verify-code{
+	float: left;
+	border: 1px solid #e5e5e5;
+	outline: none;
+	box-sizing: border-box;
+	cursor: pointer;
+}
+.verify-input-area{
+	float: right;
+}
+.verify-btn{
+	background: #00A862;
+	border:1px solid #00A862;
+	color: white;
+    text-align: center;
+    border-radius: 3px;
+    cursor: pointer;
+    height: 34px;
+    line-height: 34px;
+    width: 98px;
+    font-size: 13px;
+    float: right;
+}
+.verify-change-area{
+	float: left;
+	position: relative;
+}
+.verify-change-code,.account-svg{
+	font-size: 20px;
+	color: rgba(0,0,0,.3);
+	line-height: 34px;
+}
+.verify-change-code:hover,.account-svg:hover{
+	opacity: 0.2;
+}
+.account-svg .icon{
+	font-size: 24px;
+	font-weight: 600;
+}
+.verify-div::after{
+	content: '';
+	display: block;
+	clear: both;
+}
+.mpane-span{
+	background: rgba(0,0,0,.5);
+    color: #fff;
+    position: absolute;
+    display: block;
+   	height: 34px;
+    padding: 1px;
+    font-size: 13.46px;
+    width: 155px;
+    padding: 0 10px;
+    line-height: 34px;
+    text-align: center;
+    left: 50%;
+    margin-left: -88px;
+    top: -5px;
+    overflow: hidden;
+    display: none;
+}
+.mpane-a{
+	color: #00A862;
+	text-align: center;
+	display: block;
+	margin: 15px auto;
+	display: none;
+}
+.account-tip,.account-tip2{
+	color: #00A862;
+    height: 40px;
+    line-height: 33px;
+    font-size: 13px;
+    background:url(../img/aq_icon_bubbles.png) no-repeat -7px -5px;
+    text-align: center;
+    display: none;
+    position: absolute;
+    width: 94px;
+    top: -38px;
+    right: -40px;
+}
+.account-tip2{
+	
+	background-position: -104px -5px;
+	right: -37px;
+}
+/*加入星享俱乐部*/
+.join-div>.h2{
+	font-size: 22px;
+	color: rgba(0, 0, 0, 0.87);
+	font-weight: 500;
+}
+.join-div>h3:nth-of-type(2){
+	margin-bottom: 24px;
+	padding-right: 18px;
+}
+.join-div>button{
+	background: none;
+    border: 1px solid #00A862;
+    border-radius: 48px;
+    box-sizing: border-box;
+    color: #00A862;
+    font-weight: 500;
+    outline: none;
+    padding: 6px 18px;
+    font-size: 17px;
+}
+@media (max-width: 1024px) {
+	.index-club{
+		padding: 12px 0px;
+	}
+}
+@media (max-width:640px ) {
+	.menu-nav>.h2{
+		font-size: 23px;
+	}
+	.account-p{
+		font-size: 13px;
+	}
+	.index-club{
+		display: none;
+	}
+	.join{
+		display: none;
+	}
+	.code-div{
+		width: 432px;
+		height: 160px;
+		background: white;
+		box-shadow: 0 1px 1px 1px rgba(0,0,0,.12);
+		box-sizing: border-box;
+	}
+	.account-login{
+		margin-bottom: 80px;
+		background: #F7F7F7;
+	}
+	
+	#mpanel2{
+		margin: 10px auto;
+		
+	}
+}

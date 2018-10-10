@@ -1,0 +1,52 @@
+.store-nav{
+	width: 100%;
+	padding: 24px;
+}
+.store-div{
+    margin-right: 72px;
+    margin-bottom: 8px;
+}
+.store-div>p{
+	cursor: pointer;
+	
+}
+.store-div>p::before{
+    content: '';
+    position: relative;
+    top: 4px;
+    margin-right: 6px;
+    display: inline-block;
+    width: 14px;
+    height: 18px;
+    background: url(../img/icon-locator-green.svg) no-repeat center/contain;
+}
+.store-div>p::after{
+	content: '';
+    position: relative;
+    top: -1px;
+    margin-left: 6px;
+    display: inline-block;
+    width: 10px;
+    height: 8px;
+    background: url(../img/icon-locator-arrow.svg) no-repeat center/contain;
+}    
+.store-div>input{
+	background: url(../img/icon-search.svg)no-repeat right bottom;
+    border: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+    outline: none;
+    padding: 4px 0;
+    font-size: 18px;
+    width: 100%;
+}
+.store-div>input:hover{
+	border-color: #00A862;
+}
+.store-nav-span{
+	color: #00A862;
+	float: right;
+	font-size: 18px;
+	margin-top: 40px;
+	cursor: pointer;
+	
+}

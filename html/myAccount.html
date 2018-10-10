@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script type="text/javascript" src="../js/jquery-3.2.1.min.js" ></script>
+		<script type="text/javascript" src="../js/bootstrap.min.js" ></script>
+		<script src="../js/iconfont.js"></script>
+		<script type="text/javascript" src="../js/all.js"></script>
+		<link rel="stylesheet" href="../css/cssreset.css" />
+		<link rel="stylesheet" href="../css/bootstrap.min.css" />
+		<link rel="stylesheet" href="../css/index.css"/>
+		<link rel="stylesheet" href="../css/menu.css"/>
+		<link rel="stylesheet" href="../css/myAccount.css" />
+	</head>
+	<body>
+		<div class="app clearfix">
+		<!--左边导航-->
+			<nav class="mynav">
+				<div class=" con-nav">
+					<header class="myheader clearfix">
+						<a class="logo clearfix" href="../index.html"><img src="../img/logo.svg" alt=""/></a>
+						<div class="mynav-primary clearfix">
+							<ul class="list-unstyled clearfix">
+								<li><a href="#">门店</a></li>
+								<li><a href="myAccount.html"><span>我的账户</span></a></li>
+								<li><a href="menu.html">菜单</a></li>
+							</ul>
+						</div>
+						<a class="me clearfix"><img src="../img/icon-hamburger.svg"alt=""/></a>
+						<a class="me clearfix meclose account-close"><svg class="icon closepic" aria-hidden="true"><use xlink:href="#icon-iconfontclose"></use></svg></a>
+						
+					</header>
+					<div class="body">
+						<!--点击导航栏-->
+						<div class="body-middle">
+							<ul class="list-unstyle">
+								<li><a href="#">门店</a></li>
+								<li><a href="store.html">星享俱乐部</a></li>
+								<li><a href="menu.html">菜单</a></li>
+								<li><hr/></li>
+								<li><a href="mobile.html">星巴克移动应用</a></li>
+								<li><a href="#">星礼卡</a></li>
+								<li><a href="#">星巴克臻选™</a></li>
+								<li><a href="#">专星送™</a></li>
+								<li><a href="#">咖啡星讲堂</a></li>
+								<li><a href="choice.html">上海烘焙工坊</a></li>
+								<li><a href="#">关于星巴克</a></li>
+								<li><a href="#">帮助中心</a></li>
+								<li><hr/></li>
+							</ul>
+							<footer class="foot">
+								<a class="login-sign" href="myAccount.html">
+									<img src="../img/icon-account.svg" />
+									<span>登录</span>
+								</a>
+								<a>
+									<span class="button">注册</span>
+								</a>
+							</footer>
+							<div class="foot2">
+								<a href="#">English | 隐私政策 | 使用条款</a><br />
+								<a href="#"><img src="../img/icpicon.png" />  沪公网安备 31010402000318号</a>
+								<a href="#">|  沪ICP备17003747号</a>
+							</div>
+						</div>
+						
+						<div class="menu-nav">
+							<h3 class="h2">登录或创建一个新帐户 🌟</h3>
+							<ul class="menunav-ul drink-nav clearfix">
+								<li class="menunav-one"><a href="myAccount.html">登录</a></li>
+								<li><a href="#">注册</a></li>
+								<li><a href="#">关于星享俱乐部</a></li>
+							</ul>
+						</div>
+						
+					</div>
+				</div>
+			</nav>
+			<!--右边内容-->
+			<section class="mymain clearfix">
+				<!--星享俱乐部-->
+				<div class="index-club">
+					<div class="indexclub-div">
+					<div class="indexclub-top clearfix">
+						<h3 class="indexclubh3 h1">星享俱乐部</h3>
+						<p class="indexclub-tex">
+							<span>加入星享俱乐部，即可在星巴克门店消费时积星星，享好礼！每累积消费50元可获赠一颗星星。星星越多，会员等级越高，好礼越丰富！</span>
+							</p>
+						<p>
+							<a class="button">查看详情</a>
+							
+							
+						</p>
+					</div>
+					<img src="../img/card-msr-unlogged.png"/>
+					</div>
+				</div>
+				<!--登录-->
+				<section class="account-login">
+					<div class="account-login-body">
+						<div class="login-input">
+							<input type="text" />
+							<label>用户名或者电子邮箱</label>
+						</div>
+						<div class="login-input clearfix">
+							<input type="text" class="password"/>
+							<span></span>
+							<label>密码</label>
+						</div>
+						<div class="login-div clearfix">
+							<p class="account-span clearfix">
+								<span class="bg1"><img src="../img/icon-checked.svg"/></span>
+								<span>下次自动登录</span>
+							</p>
+							<p class="account-p">忘记密码？</p>
+						</div>
+						<!--验证码-->
+						<div class="code-div clearfix">
+						
+						<div id="mpanel2" class="clearfix">
+							<p>请您输入下图中的验证码：</p>
+				    		<a class="mpane-a">已验证</a>
+				    		<span class="mpane-span">输入有误，请重新输入</span>
+				    		<div class="cerify-code-panel">
+				    			<div class="verify-code-area clearfix">
+				    				<div class="verify-code"></div>
+				    				<span class="verify-input-area">
+				    					<input type="text" class="varify-input-code" placeholder="请输入验证码"/>
+				    				</span>	
+				    			</div>
+				    			<div class="clearfix verify-div">
+					    			<div class="verify-change-area">
+					    				<a class="verify-change-code glyphicon glyphicon-repeat"></a>
+					    				<span class="account-tip">换一张图片</span>
+					    				<a class="account-svg">
+					    					<svg class="icon" aria-hidden="true">
+											  <use xlink:href="#icon-info"></use>
+											</svg>
+					    				</a>
+					    				<span class="account-tip2">问题反馈</span>
+					    			</div>
+					    			<button type="button" id="check-btn" class="verify-btn">验证</button>
+				    			</div>
+				    		</div>
+				        </div>
+						</div>
+						<div class="account-btn">
+							<button disabled="disabled">登录</button>
+						</div>
+					</div>
+				</section>
+				<!--加入星享俱乐部-->
+				<section class="join">
+					<div class="account-login-body join-div">
+						<h3 class="h2">加入星享俱乐部</h3>
+						<h3><small>只需几分钟，便可成功注册星享俱乐部帐户，成为“星”会员，立即开启集星之旅。</small></h3>
+						<button>注册</button>
+					</div>
+						
+				</section>
+
+			</section>
+			<!--超小屏幕的底部-->
+			<div class="mobile">
+				<ul class="list-unstyled clearfix">
+					<li>
+						<a href="../index.html">
+							<span class="smallpic">
+								<img src="../img/icon-home.svg" />
+								<img src="../img/icon-home-active.svg" />
+							</span>
+							<p class="mobile-home">主页</p>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<span class="smallpic">
+								<img src="../img/icon-stores.svg" />
+								<img src="../img/icon-stores-active.svg" />
+							</span>
+							<p class="mobile-home">门店</p>
+						</a>
+					</li>
+					<li>
+						<a class="active" href="myAccount.html">
+							<span class="smallpic">
+								<img src="../img/icon-account.svg" />
+								<img src="../img/icon-account-active.svg" />
+							</span>
+							<p class="mobile-home">我的账户</p>
+						</a>
+					</li>
+					<li>
+						<a href="menu.html">
+							<span class="smallpic">
+								<img src="../img/icon-menu.svg" />
+								<img src="../img/icon-menu-active.svg" />
+							</span>
+							<p class="mobile-home">菜单</p>
+						</a>
+					</li>
+					<li>
+						<a href="#" class="more">
+							<span class="smallpic">
+								<img src="../img/icon-more.svg" />
+								<img src="../img/icon-more-active.svg" />
+							</span>
+							<p class="mobile-home">更多</p>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<script type="text/javascript" src="../js/verify.min.js" ></script>
+        <script>
+        	
+        	$('#mpanel2').codeVerify({
+        		type : 1,
+		    	width : '138px',
+		    	height : '51px',
+		    	fontSize : '30px',
+		    	codeLength : 4,
+		    	btnId : 'check-btn',
+		    	ready : function() {
+		    	},
+		    	success : function() {
+		    		$(".mpane-a").show().siblings().hide();
+		    		
+		    	},
+		    	error : function() {
+		    		$(".mpane-span").fadeIn(400);
+		    		setTimeout(function(){$(".mpane-span").fadeOut(400)},1000)
+		    	}
+		    });
+		    
+		    
+		   
+		    
+        </script>
+	</body>
+</html>

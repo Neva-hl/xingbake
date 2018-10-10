@@ -1,0 +1,440 @@
+
+
+/**/
+	
+	/*左边导航*/
+	.menu-nav{
+		display: table-cell;
+		vertical-align: middle;
+		clear: both;
+		box-sizing: border-box;
+		padding-left: 100px;
+	}
+	.menu-nav>.h2{
+		font-weight:600;
+		margin-bottom: 25px;
+	}
+	.menunav-ul>li{
+		margin-bottom: 15px;
+	}
+	.menunav-ul>li>a{
+		color: #6f6f6f;
+		font-size: 16px;
+		padding: 3px 0px;
+	}
+	.menunav-ul>li>a:hover{
+		color: #000000;
+	}
+	.menunav-ul>.menunav-one>a{
+		border-bottom: 3px solid  #00A862;
+		color: #000000;
+		font-weight: 700;
+	}
+	.item>img{
+		max-width: 100%;
+		height: auto;
+	}
+	/*在一起的好时光*/
+	.menu-time{
+		width: 100%;
+		text-align: center;
+		padding-top: 25px;
+		background: white;
+	}
+	.menu-time p{
+		max-width: 750px;
+		width: 100%;
+		text-align: center;
+	    margin-left: auto;
+    	margin-right: auto;
+		font-size: 16px;
+		line-height: 25px;
+		margin-bottom: 20px;
+	}
+	.menu-time>h3{
+		margin-bottom: 20px;
+	}
+	.menu-time-div{
+		margin-top: 20px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	
+	.menu-icon{
+		display: none;
+	}
+	.menu-time>img{
+		cursor: pointer;
+	}
+	.menu-time>img:nth-of-type(1){
+		max-width: 100%;
+		height: auto;
+		margin-top: 30px;
+	}
+	.menu-time>img:nth-of-type(2){
+		display: none;
+	}
+	.menu-time .p2{
+		max-width: 688px;
+		margin-bottom: 24px;
+	}
+	.menu-time-last{
+		padding-bottom: 30px;
+	}
+	/*新品*/
+	.new-product{
+		width: 100%;
+		background: #f7f7f7;
+		text-align: center;
+	}
+	.new-product>h3{
+		margin: 40px auto 18px;
+	}
+	.new-product-div{
+		width: 75%;
+		margin: 20px auto;
+	}
+	.new-product-div>ul{
+		width: 100%;
+		box-sizing: border-box;
+	}
+	.new-product-div>ul>li{
+		float: left;
+
+	}
+
+	.new-product-div>ul>li>img{
+		width: 100%;
+		padding: 12px;
+		box-sizing: border-box;
+	}
+	.new-product-div>ul>li>p{
+		font-size: 15px;
+		margin-bottom: 40px;
+		margin-top: 15px;
+		padding: 0px 15px;
+	}
+	/*点击菜单*/
+	.btn-bottom{
+		color: white;
+		width: 115px;
+		height: 53px;
+		background: #00A862;
+		border: 1px solid #00A862;
+		padding: 12px 24px;
+		box-shadow: 0 2px 4px rgba(0,0,0,.4);
+		border-radius: 48px;
+		position: fixed;
+		right: 15px;
+		bottom: 15px;
+		font-size: 16px;
+		font-weight: 700;
+		outline: none;
+	}
+	.search{
+		width: 70%;
+		float:right;
+		background: rgba(255,255,255,.8);
+		display: none;
+	}
+	.search-top{
+		position: fixed;
+		top: 30px;
+		right: 30px;
+	}
+	.search-div{
+		width: 60%;
+		margin: 100px auto;
+		
+	}
+
+	.search-div>ul{
+		display: flex;
+	}
+	.search-div li{
+		flex: 1;
+		cursor: pointer;
+	}
+	.search-div>input{
+		width: 100%;
+		height: 36px;
+		background: url(../img/icon-search.svg) no-repeat right;
+		border: none;
+		border-bottom: 1px solid rgba(0,0,0,.12);
+		font-size: 17px;
+		font-weight:400;
+	}
+	.search-div>input:hover{
+		border-color: #00a862 ;
+	}
+	.search-div>p{
+		width: 96px;
+		height:29px;
+		background:#00a862 ;
+		color: white;
+		padding: 2px 12px;
+		margin-top: 20px;
+		line-height: 29px;
+	}
+	.search-div img{
+		width: 86px;
+		height: 86px;
+	}
+	.search-div li>p{
+		width: 82px;
+		font-weight: 700;
+		font-size: 16px;
+		margin-top: 15px;
+    	line-height: 24px;
+	}
+	/*动画*/
+	.search-div li:hover{
+		animation: move5 2s infinite linear;
+	}
+	@keyframes move5{
+		0%{margin-top: -3px;}
+		100%{margin-top: -3px;}
+	}
+	
+	@media (min-width:1025px ) {
+		.new-product-div>ul>li{
+			width: 31.3%;
+			margin-right: 3%;
+			height: 320px;
+		}
+		.new-product-div>ul>li:nth-of-type(3n){
+			margin-right: 0px;
+		}
+		
+	}
+/*middle*/
+@media (max-width: 1024px) {
+	/*导航栏*/
+	.menunav-ul>li{
+		float: left;
+		margin-bottom: 0px;
+	}
+	
+	.menu-nav{
+		display: block;
+		padding: 0px 13px;
+	}
+	.menunav-ul{
+		margin: 0px;
+	}
+	.menu-nav>.h2{
+		margin-top: 5px;
+		margin-bottom: 20px;
+		font-size: 27px;
+	}
+	.menunav-ul>li>a{
+		display: block;
+		margin-left: 20px;
+		padding-bottom: 8px;
+		box-sizing: border-box;
+	}
+	.menunav-ul>li:nth-of-type(1)>a{
+		margin-left: 0px;
+	}
+	/*在一起 的好时光*/
+	.menu-time .p2{
+		max-width: 704px;
+		
+	}
+	/*新品*/
+	.new-product-div{
+		width: 75%;
+		margin: 20px auto;
+		padding: -12px;
+	}
+	.new-product-div>ul>li{
+		width: 47%;
+		margin-right: 3%;
+	}
+	.new-product>h3{
+		margin-top: 40px;
+	}
+	.new-product-div>ul>li:nth-of-type(2n){
+		margin-right: 0px;
+	}
+	
+	/*点击搜索*/
+	.search{
+		width: 100%;
+	}
+	
+	.search-div>ul{
+		width: 100%;
+		display: flex;
+	}
+	.search li{
+		flex: 1;
+	}
+}
+@media (max-width: 640px) {
+	/*导航栏*/
+	.menunav-ul>li{
+		float: left;
+		margin-bottom: 0px;
+	}
+	.menunav-ul>li:nth-of-type(1)>a{
+		
+	}
+	.menu-nav{
+		display: block;
+		padding: 0px 13px;
+	}
+	.menunav-ul{
+		margin: 0px;
+	}
+	.menu-nav>.h2{
+		padding-top: 20px;
+		margin-bottom: 20px;
+		font-size: 22px;
+	}
+	.menunav-ul>li>a{
+		display: block;
+		margin-left: 20px;
+		padding-bottom: 8px;
+		box-sizing: border-box;
+	}
+	.menunav-ul>li:nth-of-type(1)>a{
+		margin-left: 0px;
+	}
+	/*在一起的好时光*/
+	.container{
+		padding: 0px;
+	}
+	.menu-time{
+		padding-top: 20px;
+	}
+	.p1{
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+	.menu-time>p{
+		color: rgba(0,0,0,.8);
+		
+	}
+	.menu-time>img:nth-of-type(1){
+		display: none;
+	}
+	.menu-time>img:nth-of-type(2){
+		display: block;
+		width: 100%;
+	}
+	.menu-time>h3{
+		font-size: 20px;
+	}
+	.menu-time-div{
+		max-height: 48px;
+		overflow: hidden;
+		position: relative;
+		transition: all 0.4s ease-in-out;
+	}
+	.menu-icon{
+		display: block;
+		width: 24px;
+		height: 24px;
+		margin: 0px auto 20px;
+		background: url(../img/icon-chevron-down.svg) no-repeat center center;
+		transition: all 0.4s ease-in-out;
+		cursor: pointer;
+	}
+	.menu-time .p1{
+		margin-bottom: 50px;
+	}
+	.p2{
+		padding:0px 15px 10px;
+	}
+	.p3{
+		padding:0px 15px 60px
+		
+	}
+	.menu-mask{
+		background: linear-gradient(rgba(255, 255, 255, 0) 24px, #FFF);
+	    content: '';
+	    display: block;
+	    width: 100%;
+	    height: 100%;
+	    opacity: 1;
+	    transition-duration: 0.1s;
+	    transition-property: opacity;
+	   
+	    position: absolute;
+	    top: 0px;
+	    left: 0px;
+	}
+	.new-product-div{
+		width:95% ;
+	}
+	.new-product-div>ul{
+		padding-bottom: 70px;
+	}
+	.new-product-div>ul>li{
+		width: 48%;
+		margin-right: 2%;
+		height: 313px;
+	}
+	.new-product-div>ul>li:nth-of-type(2n){
+		margin-right: 0px;
+	}
+	.new-product-div>ul>li>p{
+		font-size: 15px;
+		margin-bottom: 30px;
+	}
+	.new-product>h3{
+		font-size: 20px;
+		font-weight: 400;
+	}
+	/*点击菜单*/
+	.btn-bottom{
+		bottom: 75px;
+	}
+	.search{
+		width: 100%;
+	}
+	.search-div{
+		margin-top: 90px;
+		width: 80%;
+	}
+	.search-top{
+		top: 20px;
+		right: 20px;
+		
+	}
+	
+	.search-div>ul{
+		display: block;
+		width: 100%;
+		padding-left: 30px;
+	}
+	.search-div li{
+		width: 46%;
+		float: left;
+		margin-bottom: 25px;
+	}
+	.search-div>ul>li:nth-of-type(2n){
+		margin-left: 8%;
+	}
+	.search-div li>p{
+		width: 100%;
+	}
+	.search-div img{
+		width: 150px;
+		height: 150px;
+	}
+	.search-div>ul>li:nth-of-type(4){
+		margin-bottom: 80px;
+	}
+	
+	/*动画*/
+	.search-div li:hover{
+		animation: move5 2s infinite linear;
+	}
+	@keyframes move5{
+		0%{margin-top: 0px;}
+		100%{margin-top: 0px;}
+	}
+	
+}

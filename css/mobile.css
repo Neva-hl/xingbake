@@ -1,0 +1,460 @@
+.menu-nav>.h2{
+	font-size: 28px;
+	font-weight: 550;
+}
+.mynav{
+	z-index: 2;
+}
+/*右边内容*/
+.mymain{
+	height: 100%;
+	z-index: -1;
+	background: #efebe8;
+}
+.main-mobile-top{
+	width: 100%;
+	position: relative;
+	color: white;
+	padding: 0px 48px 18px;
+	z-index: 1;
+}
+.mobile-bg{
+	width: 100%;
+	height: 100%;
+	background: url(../img/833f97869b832fae29f3f29563c7684e_starbuck-mobile-background-top.jpg) no-repeat;
+	background-size: cover;
+	background-position: center;
+	z-index: 0;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+.smalltip{
+	z-index: 200;
+}
+.main-mobile-left{
+	max-width: 768px;
+	width: 100%;
+	margin: 0px auto;
+	padding:48px 24px 48px;
+	position: relative;
+	z-index: 2;
+}
+.main-mobile-left>h2{
+	text-align: center;
+	margin-bottom: 48px;
+	margin-top: 0px;
+	font-size: 3.4rem;
+	
+}
+
+.main-mobile-div{
+	padding: 24px 0;
+	padding-right: 324px;
+	position: relative;	
+	
+}
+.main-mobile-div>.h3{
+	
+	margin-bottom: 18px;
+	
+}
+.main-mobile-div>p{
+	max-width: 250px;
+	margin-bottom: 24px;
+	font-size: 16px;
+	padding: 0px 0px 24px;
+	line-height: 24px;
+}
+.mobile-video{
+	width: 300px;
+	position: absolute;
+	top: 35px;
+	right: 24px;
+	margin: 0px auto;
+	z-index: 2;
+}
+.mobile-video>video{
+	width: 300px;
+	padding: 45px 16px;
+	z-index: 2;
+}
+.video-bg{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: -24px;
+	left: 0px;
+	z-index: -1;
+	bottom: 31px;
+}
+.video-bg>img{
+	width: 100%;
+	max-width: 100%;
+}
+.mobile-download{
+	position: absolute;
+	top:455px;
+	left: 24px;
+	z-index: 2;
+}
+.mobile-download>img{
+	margin-bottom: 12px;
+	cursor: pointer;
+	border-radius: 26px;
+    display: block;
+    height: 52px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0,.38);
+}
+.download-bg{
+    position: absolute;
+    bottom: -95%;
+    width: 321px;
+    height: 289px;
+    z-index: -1;
+    left: -18%;
+    display: block;	
+}
+/*右边中间部分*/
+
+.main-mobile-middle{
+	width: 100%;	
+	margin-top: 250px;
+	padding-top: 18px;
+	padding-bottom: 30px;
+	
+	box-sizing: border-box;
+}
+
+.mobile-middle-div{
+	position: relative;
+	max-width: 890px;
+	margin: 0px auto;
+	padding-top: 275px;
+	background-color: #f7f7f7;
+	box-sizing: border-box;
+    
+    padding-bottom: 120px;
+}
+.mobile-middle-div::before{
+    
+    background: url(../img/apps-mobile-circle.svg);
+    background-repeat: no-repeat;
+    background-position: 50% calc(100% - 100px);
+    background-size: contain;
+   /* z-index: -1;*/
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 81px;
+}
+#myCarousel{
+	position: relative;
+}
+.carousel-indicators{
+	width: 100%;
+	height: 100px;
+	position: absolute;
+	top: -100px;
+	left: 0px;
+	padding: 12px 24px 24px 24px;
+	margin: 0px;
+}
+.carousel-indicators>li{
+	text-align: center;
+	float: left;
+	width: 25%;
+	height: auto;
+	filter: grayscale(1);
+	opacity: 0.7;
+	padding-bottom: 14px;
+	font-weight: 900;
+	color: gray;
+	border: none; 
+	border-bottom:solid 1px rgba(0, 0, 0, 0.22);
+	cursor: pointer;
+     margin: 0px; 
+     text-indent: 0px; 
+    cursor: pointer;
+    background-color: none;
+    border-radius: 0px;
+    background: none;
+}
+.carousel-indicators .active{
+	width: 25%;
+	height: auto;
+	background: none;
+}
+.carousel-indicators>li:hover{
+	filter: grayscale(0);
+	opacity: 1;
+	color: #000000;
+	border-bottom: solid 2px #00A862;
+	
+}
+.carousel-indicators .active{
+	opacity: 1;
+    border-bottom: solid 2px #00A862;
+    filter: grayscale(0);
+    color: #000000;
+}
+.carousel-indicators img{
+	max-width: 30px;
+	margin-bottom: 6px;
+	width: 30px;
+	height: 30px;
+}
+/*中间轮播图*/
+.carousel-control{
+	width: 0px;
+
+}
+.item{
+	text-align: center;
+}
+.item>.h2{
+	font-size: 22px;
+	margin-bottom: 18px;
+	margin-top: 30px;
+}
+.item>.h2::before{
+	content: url(../img/apps-mobile-star.svg);
+	margin-right: 12px;
+}
+.item>p{
+	margin-bottom: 32px;
+	color: rgba(0,0,0,.56);
+	min-height: 48px;
+	margin-left: auto;
+	margin-right: auto;
+	font-weight: 700;
+}
+.item>img{
+	display: block;
+	width: 80%;
+	margin: 0px auto;
+}
+.mobile-circle-left,.mobile-circle-right{
+	display: block;
+	background: url(../img/icon-arrow.svg) transparent no-repeat center center;
+	width: 48px;
+	height: 48px;
+	position: absolute;
+	top: 70%;
+	margin-top: -24px;
+	padding: 1px 6px;
+	z-index: 1;
+	border: none;
+	outline: none;
+	
+}
+.mobile-circle-left{
+	left: 10px;
+}
+.mobile-circle-right{
+	transform: rotate(180deg);
+	right: 10px;
+}
+.mobile-circle-left:hover{
+	transition: left 0.5s ease;
+	left: 6px;
+}
+.mobile-circle-right:hover{
+	transition:right 0.5s ease;
+	right: 6px;
+}
+.right.carousel-control {
+	top: 70%;
+	background: none;
+	width: 0px;
+}
+/*右边底部*/
+.main-mobile-bottom{
+	max-width: 768px;
+	width: 100%;
+	padding: 18px 24px;
+	margin: 0px auto;
+	text-align: center;
+	margin-bottom: 24px;
+}
+.main-mobile-bottom>h3{
+	margin-bottom: 18px;
+}
+.main-mobile-bottom>h3>span{
+    color: #00A862;
+
+}
+.mobile-bottom-p1{
+	margin: 0px auto 24px;
+	word-wrap: break-word;
+    word-break: normal;
+}
+.mobile-bottom-p1>a{
+	color: #00A862;
+	font-size: 1.6rem;
+}
+.mobile-bottom-p1>span{
+	padding: 0 9px;
+}
+.icon {
+   width: 1em; height: 1em;
+   vertical-align: -0.15em;
+   fill: currentColor;
+   overflow: hidden;
+}
+.mobile-bottom-pic>img{
+	width: 160px;
+	height: 160px;
+	margin-bottom: 12px;
+}
+.mobile-bottom-pic>p{
+	cursor: pointer;
+}
+.mobile-bottom-p2{
+	margin: 48px 0px 24px;
+	font-size: 16px;
+}
+.mobile-bottom-p3{
+	margin-bottom: 24px;
+}
+.mobile-bottom-p3>a{
+    border: 1px solid #00A862;
+    border-radius: 48px;
+    box-sizing: border-box;
+    color: #00A862;
+    display: inline-block;
+    font-weight: 500;
+    outline: none;
+    overflow: hidden;
+    padding: 6px 18px;
+    margin-right: 8px;
+}
+.ios,.andriod{
+	font-size: 28px;
+	color: rgba(0,0,0,.2);
+}
+.main-mobile-left>a>img{
+	display: none;
+}
+@media (max-width:1024px ) {
+	.mobile-download{
+		display: none;
+	}
+	.main-mobile-left>a>img{
+	display: block;
+	border-radius: 26px;
+    display: block;
+    height: 52px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.38);
+    position: absolute;
+    bottom: 0px;
+    left: 12px;
+}
+.download-bg{
+	left: 0px;
+}
+.main-mobile-bottom>h3{
+	font-size: 1.8rem;
+	
+}
+.eng-span{
+	font-weight: 250;
+	font-size: 1.8rem;
+	
+}
+.main-mobile-left{
+	padding-left: 16px;
+	padding-right: 16px;
+}
+.main-mobile-top{
+	padding-left: 16px;
+	padding-right: 16px;
+}
+}
+@media (max-width:640px ) {
+	.menu-nav>.h2{
+		font-size: 2.2rem;
+	}
+	.mobile-bg{
+		background: url(../img/fb9548d4a9f0938ec4a5eb7e9d177eaf_starbuck-mobile-background-mobile.jpg) no-repeat center;
+		background-size: cover;
+		height: calc(100% - 233px);
+	}
+	.main-mobile-left>h2{
+		font-size: 2.4rem;
+	}
+	.mobile-video{
+		width: 260px;
+		position: relative;
+		margin: 0 auto;
+		top: 35px;
+	}
+	.mobile-video>video{
+    padding: 35px 16px;
+    width: 261px;	
+    box-sizing: border-box;	
+	}
+	.video-bg{
+		bottom: 25px;
+	}
+	.main-mobile-top{
+		padding: 48px 16px 0px;
+	}
+	.main-mobile-left{
+		max-width: 100%;
+		padding: 0px 16px 12px;
+	}
+	.main-mobile-div{
+		padding: 0px;
+	}
+	
+	.main-mobile-div>p{
+		max-width: 100%;
+	}
+	.main-mobile-left>a>img{
+		position: fixed;
+		bottom: 71px;
+		right: 16px;
+		left: auto;
+	}
+	.main-mobile-middle{
+		margin-top: 178px;
+	}
+	.download-bg{
+		display: none;
+	}
+	.mobile-middle-div{
+		padding-top: 155px;
+	}
+	
+	.carousel-indicators>li p{
+		min-height: 60px;
+		margin-bottom: 10px;
+	
+	}
+	.carousel-indicators>li{
+		opacity: 0.5;
+	}
+	
+	.item>.h2,.item p{
+		padding: 0px 16px;
+	}
+	.item>.h2{
+		margin-top: 80px;
+		font-size: 18px;
+		height: 60px;
+		margin-bottom: 12px;
+	}
+	/*内容底部*/
+	.main-mobile-bottom{
+	    padding-bottom: 12px;
+    	padding-top: 12px;
+    	margin-bottom: 105px;
+	}
+	.mobile-bottom-p3>a{
+		font-size: 1.6rem;
+		font-weight: 500;
+	}
+}
