@@ -48,23 +48,21 @@ $(function(){
 		$(".search").fadeIn(400);
 		$(".mymain").fadeOut(400);
 		$(this).hide();
-		$(window).resize(function(){
-			if ($(window).width()<1024) {
-				$(".mynav").hide();
+// 		$(window).resize(function(){
+// 			if ($(window).width()<1024) {
+// 				$(".mynav").hide();
 				
-			}else{
-				$(".mynav").show();
-			}
-		})
+// 			}else{
+// 				$(".mynav").show();
+// 			}
+// 		})
 	})
 	$(".search-top").click(function(){
-		console.log($(window).width())
-		if ($(window).width()<1007&&$(window).width()>622) {
-			$(".mynav").show();
-				
-		}else if ($(window).width()<=622) {
+		if ($(window).width()<=622) {
 			$(".mobile").show();
+			
 		}
+		$(".mynav").show();
 		$(".search").fadeOut(400);
 		$(".mymain").fadeIn(400);
 		$(".btn-bottom").show();
